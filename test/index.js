@@ -18,7 +18,7 @@ internals.users = {
     }
 };
 
-describe('hapi-auth-jwt', () => {
+describe('hapi-jot', () => {
 
     it('should require a key, a lookup function, and a validation function', (done) => {
 
