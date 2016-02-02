@@ -1,14 +1,3 @@
-![jot Logo](https://github.com/shanewwarren/hapi-jot/raw/master/images/jot.png)
-
-JWT (JSON Web Token) authentication plugin for [`hapi`](https://github.com/hapijs/hapi).
-
-# Documentation
-
-[**API Documentation**](API.md)
-
-# Example
-
- ```js
 'use strict';
 
 const Hapi = require('hapi');
@@ -123,5 +112,3 @@ server.register(require('../lib'), (err) => {
         });
     });
 });
-
-```
