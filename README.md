@@ -2,6 +2,8 @@
 
 JWT (JSON Web Token) authentication plugin for [`hapi`](https://github.com/hapijs/hapi).
 
+[![Build Status](https://secure.travis-ci.org/shanewwarren/hapi-jot.svg)](http://travis-ci.org/shanewwarren/hapi-jot)
+
 # Documentation
 
 [**API Documentation**](API.md)
