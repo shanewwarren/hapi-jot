@@ -1,6 +1,6 @@
 {
   "name": "hapi-jot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JSON Web Token authentication plugin for hapi",
   "main": "lib/index.js",
   "directories": {
@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "boom": "^3.1.2",
+    "hapi": "^13.0.0",
     "hoek": "^3.0.4",
     "joi": "^7.2.3",
     "jsonwebtoken": "^5.5.4"
