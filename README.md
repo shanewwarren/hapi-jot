@@ -28,7 +28,7 @@ const server = new Hapi.Server();
 server.connection({ host: 'localhost', port: 3000 });
 
 // Register jot with the server
-server.register(require('../lib'), (err) => {
+server.register(require('hapi-jot'), (err) => {
 
     // Handle jot validation errors
     Hoek.assert(!err, err);
